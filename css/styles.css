@@ -7,7 +7,7 @@
     font-family: 'commissioner', sans-serif;
 }
 
-header {
+.head {
     background: url('../images/image-hero-desktop.jpg');
     background-position: center;
     height: 25em;
@@ -15,7 +15,7 @@ header {
     box-shadow: 0px 55px 93px inset;
 }
 
-header div {
+.head div {
     display: flex;
     justify-content: space-between;
 }
@@ -23,13 +23,13 @@ header div {
 .logo {
     width: 8em;
 }
-nav {
+.nav-1 {
     display: flex;
     list-style-type: none;
     gap: 2em;
 }
 
-nav a {
+.nav-1 a {
     text-decoration: none;
     color: rgb(247, 245, 245);
     font-size: 13px;
@@ -64,7 +64,7 @@ button:hover {
     cursor: pointer;
 }
 
-main {
+.main-cont {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -119,15 +119,9 @@ main {
     color: hsl(176, 72%, 28%);
 }
 
-
-
-
-
-
 .mid-cont {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 3em;
     border-radius: 10px;
     border: 1px solid rgb(238, 236, 236);
@@ -135,3 +129,18 @@ main {
     padding: 3em;
     width: 53%;
 }
+
+.rating {
+    display: flex;
+    gap: 3em;
+}
+
+.rating h1 {
+    font-size: 2em;
+}
+
+.rate {
+    border-left: 1px solid grey;
+    padding-left: 3em;
+}
+
