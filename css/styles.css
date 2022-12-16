@@ -59,9 +59,16 @@ button {
     border: none;
 }
 
+button:hover {
+    background-color: hsl(176, 72%, 28%);
+    cursor: pointer;
+}
+
 main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
 }
 
 .hero-cont {
@@ -105,6 +112,26 @@ main {
     border-radius: 30px;
     align-items: center;
     padding-right: 1.2em;
-    font-weight: 700;
-    
+    font-weight: 700;   
+}
+.btn div :hover {
+    cursor: pointer;
+    color: hsl(176, 72%, 28%);
+}
+
+
+
+
+
+
+.mid-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+    border-radius: 10px;
+    border: 1px solid rgb(238, 236, 236);
+    background-color: rgb(250, 251, 252);
+    padding: 3em;
+    width: 53%;
 }
