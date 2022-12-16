@@ -57,6 +57,7 @@ button {
     color: white;
     font-size: 15px;
     border: none;
+    padding: 1em;
 }
 
 button:hover {
@@ -68,7 +69,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2em;
+    gap: 1.5em;
 }
 
 .hero-cont {
@@ -78,8 +79,8 @@ button:hover {
     gap: 3em;
     border-radius: 10px;
     border: 1px solid rgb(238, 236, 236);
-    background-color: rgb(250, 251, 252);
-    padding: 3em;
+    background-color: white;
+    padding: 2.5em;
     width: 53%;
     margin-top: -6rem;
 }
@@ -126,8 +127,7 @@ button:hover {
     gap: 3em;
     border-radius: 10px;
     border: 1px solid rgb(238, 236, 236);
-    background-color: rgb(250, 251, 252);
-    padding: 3em;
+    padding: 2.5em;
     width: 53%;
 }
 
@@ -155,4 +155,79 @@ button:hover {
     background-color: hsl(176, 50%, 47%);
     width: 77%;
     border-radius: 10px;
+}
+
+.last-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 3em;
+    border-radius: 10px;
+    border: 1px solid rgb(238, 236, 236);
+    padding: 2.5em;
+    width: 53%;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+.about p {
+    line-height: 1.8;
+}
+
+.sction {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.stands {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 3em;
+    border-radius: 10px;
+    border: 1px solid rgb(238, 236, 236);
+    padding: 1.5em;
+}
+
+.stands p,
+ .stock p {
+    line-height: 1.7;
+}
+
+.stands div,
+.stock div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stands a,
+.stock a {
+    color:hsl(176, 50%, 47%);
+    text-decoration: none;
+    font-weight: 500;
+}
+.stands span,
+.stock span {
+    font-size: 2em;
+    color: black;
+    font-weight: 700;
+}
+
+.stock {
+    opacity: 0.3;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 2em;
+    border-radius: 10px;
+    border: 1px solid rgb(221 214 214);
+    padding: 1.5em;
+}
+
+.stock button {
+    background-color: hsl(0, 0%, 48%);
 }
