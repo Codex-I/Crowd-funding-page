@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'commissioner', sans-serif;
+}
+
+header {
+    background: url('../images/image-hero-desktop.jpg');
+    background-position: center;
+    height: 25em;
+    padding: 3em 8em 0 8em;
+    box-shadow: 0px 55px 93px inset;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 8em;
+}
+nav {
+    display: flex;
+    list-style-type: none;
+    gap: 2em;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(247, 245, 245);
+    font-size: 13px;
+}
+a:hover {
+    text-shadow: 1px 2px 8px hsl(292, 83%, 93%);
+    cursor: pointer;
+}
+
+p {
+    font-size: 16px;
+    color: hsl(0, 0%, 48%);
+}
+
+img {
+    width: 60%;
+    height: auto;
+}
+
+button {
+    background-color: hsl(176, 50%, 47%);
+    width: 12rem;
+    border-radius: 30px;
+    font-weight: 500;
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+    border-radius: 10px;
+    border: 1px solid rgb(238, 236, 236);
+    background-color: rgb(250, 251, 252);
+    padding: 3em;
+    width: 53%;
+    margin-top: -6rem;
+}
+
+#mst {
+    margin-top: -4.7em;
+    width: 3em;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.hero-cont h2 {
+    font-size: 1.7em;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btn div {
+    display: flex;
+    gap: 13px;
+    background-color: hsl(0, 2%, 88%);
+    border-radius: 30px;
+    align-items: center;
+    padding-right: 1.2em;
+    font-weight: 700;
+    
+}
